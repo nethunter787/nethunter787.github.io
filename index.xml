@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 May 2019 14:40:58 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello_world</title>
+      <link>http://example.org/post/hello_world/</link>
+      <pubDate>Wed, 22 May 2019 14:40:58 +0800</pubDate>
+      
+      <guid>http://example.org/post/hello_world/</guid>
+      <description> 用Hugo 搭建自己的第一个博客  了解Hugo官网
+ Windows下载scoop(其他系统详情见官网)
+   务必先在创建目录下SHIFT+鼠标右键打开PowerShell运行代码
+  windows语法 &amp;lsquo;iex (new-object net.webclient).downloadstring(&amp;lsquo;https://get.scoop.sh&#39;)&#39;   用scoop下载hugo &amp;lsquo;scoop install hugo&amp;rsquo;
+ 创建一个Blog
+myblog为自己取的名字~ &amp;lsquo;hugo new site myblog&amp;rsquo;
+进入博客目录 &amp;lsquo;cd myblog&amp;rsquo;
+ 下载选择一个主题-&amp;gt;官网主题 &amp;gt; 要求电脑已经按默认安装好git &amp;lsquo;git clone https://github.com/huyb1991/hugo-lamp.git themes/lamp&amp;rsquo;
+ 生成服务器 &amp;lsquo;hugo server -t lamp &amp;ndash;buildDrafts&amp;rsquo;
+ 打开浏览器查看网址就能看到啦
+  </description>
+    </item>
+    
+  </channel>
+</rss>
